@@ -13,7 +13,7 @@
     "e2e": "node ./e2e/test.js",
     "lint": "eslint src/js/**/*.js",
     "lint:fix": "eslint src/js/**/*.js --fix",
-    "deploy": "gh-pages -d dist",
+    "deploy": "mail -d dist",
     "predeploy": "npm run build"
   },
   "keywords": [
