@@ -23,3 +23,7 @@ Thumbs.db
 .env
 .env.local
 .env.*.local
+
+.puppeteer-test-1766579286711
+.puppeteer-test-1766578582426
+.puppeteer-1766578387417
