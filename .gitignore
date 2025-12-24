@@ -8,7 +8,7 @@ yarn-error.log*
 dist/
 coverage/
 node_modules
-# IDE
+#IDE
 .vscode/
 .idea/
 *.swp
