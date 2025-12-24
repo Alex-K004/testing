@@ -43,7 +43,7 @@ jobs:
 
   deploy:
     needs: build-and-test
-    if: github.ref == 'refs/heads/main'
+    if: github.ref == 'refs/heads/mail'
     permissions:
       pages: write
       id-token: write
