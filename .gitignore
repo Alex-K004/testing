@@ -15,7 +15,7 @@ node_modules
 *.swo
 *~
 
-# OS
+#OS
 .DS_Store
 Thumbs.db
 
