@@ -3,9 +3,6 @@ const mastercardLogoInstance = 'mastercard.png';
 const mirLogoInstance = 'mir.png';
 const amexLogoInstance = 'amex.png';
 
-if (typeof window !== 'undefined' && process.env.NODE_ENV !== 'test') {
-}
-
 export const cardSystems = {
   visa: {
     name: 'Visa',
