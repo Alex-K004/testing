@@ -11,7 +11,6 @@ module.exports = (env, argv) => {
       filename: isProduction ? 'bundle.[contenthash].js' : 'bundle.js',
       path: path.resolve(__dirname, 'dist'),
       clean: true,
-      publicPath: '/',
       assetModuleFilename: 'images/[name][ext]'
     },
     devServer: {
